@@ -1,7 +1,9 @@
-import { Apply } from "./components/Apply";
+
 import { BrowserRouter as Router,
   Route, Switch } from 'react-router-dom';
 import { Container } from "react-bootstrap";
+
+import { Apply } from "./components/Apply";
 import { ApplyForm } from "./components/ApplyForm";
 import { Header } from "./components/Header";
 import { Options } from "./components/Options";
